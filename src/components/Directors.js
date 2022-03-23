@@ -8,9 +8,9 @@ function Directors() {
       return <li key={movie}>{movie}</li>
     })
     return (
-    <div key={directors.name}>
+    <div>
       <h3>Name: {director.name}</h3>
-      <div>Movies:</div>
+      <p>Movies:</p>
     <ul>
       {directedMoviesRender}
     </ul>

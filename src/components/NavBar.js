@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
- 
+  <div className="navbar">
   <ul>
     <li>
     <NavLink
@@ -26,7 +26,7 @@ function NavBar() {
     to="/directors"
     exact
     >
-      Director
+      Directors
     </NavLink>
     </li>
     <li>
@@ -38,7 +38,7 @@ function NavBar() {
     </NavLink>
     </li>
   </ul>
-
+  </div>
   )
 }
 

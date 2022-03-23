@@ -10,9 +10,8 @@ const moviesRender = movies.map((item) => {
   return (
   <div key={item.title}>
     <h3>Name: {item.title}</h3>
-    <div>Time: {item.time}</div>
-    <br></br>
-    <div>Genres:</div>
+    <p>Time: {item.time}</p>
+    <p>Genres:</p>
     <ul>
       {moviesGenres}
     </ul>
@@ -23,7 +22,7 @@ const moviesRender = movies.map((item) => {
 
   return (
   <div>
-  <h1>Movies</h1>
+  <h1>Movies Page</h1>
   {moviesRender}
   </div>
   
