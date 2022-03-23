@@ -5,7 +5,7 @@ function Movies() {
 
 const moviesRender = movies.map((item) => { 
   const moviesGenres = item.genres.map((genre) => {
-    return <li>{genre}</li>
+    return <li key={genre}>{genre}</li>
   })
   return (
   <div key={item.title}>
